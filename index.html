@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Pedro Dias Pereira Neto</title>
+    <title>Título da página</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 
-        <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+      function index(){
+
+        document.getElementById('sidermenu').classList.toggle('active');
+      }
+    </script>
   </head>
-  <body> 
-    <div>Developer</div>
-    <p data-item='Pedro'>Pedro Dias</p>
-    
-    <section>
-      <div id="body1">Onde o mundo pode ser feito de possibilidades:</div>
-      <nav>
-        <ul class="menuItems">
-          <li><a href='#' data-item='Home'>pagina principal</a></li>
-          <li><a href='#' data-item='About'>sobre</a></li>
-          <li><a href='#' data-item='Projects'>Projetos</a></li>
-          <li><a href='#' data-item='Contact'>Contact</a></li>
-        </ul>
-      </nav>
-    </section>
-    <footer>
-      <div class="footer-copyright text-center">&copy; Developed with ❤️</i> by
-        <a href="" class="white-text" target="_blank">www</a>. <a href="" target="_blank">Check </a>
+  <body>
+
+    <div id="sidermenu" onclick="index()">
+      <div class="toggle-gnt">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </footer>
+        <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">sobre</a></li>
+          <li><a href="">projetos</a></li>
+          <li><a href="">contato</a></li>
+        </ul>
+    </div>
+      <div class="foto1">
+        <img id="imag2"src="Img/fundo.png" alt="">
+        <img id="imag" src="Img/Pedro.png" alt="" >
+      </div>
+    </div>
   </body>
 </html>
