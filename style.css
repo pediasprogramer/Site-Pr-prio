@@ -6,9 +6,9 @@
 #sidermenu{
 
   position: absolute;
-  width: 25%;
+  width: 30%;
   height: 100%;
-  left: -25%;
+  left: -30%;
   background-color: black;
   transition: all .4s;
   opacity: 50%;
@@ -17,8 +17,8 @@
 
 #sidermenu li {
   color: white;
-  font-size: 30px;
-  padding: 25px;
+  font-size: 120%;
+  padding: 10%;
   border-bottom: 1px solid gray;
   left: 3px;
   
@@ -42,18 +42,22 @@ left: 0;
 transition: all .4s;
 }
 li a {
+  margin-left: 30px;
   text-decoration: none;
   color: white;
+  opacity:100%;
+	-moz-opacity: 100%;
+	filter: alpha(opacity=100);
 }
 
 #imag{
 
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 10%;
+  height: 20%;
   z-index: 1;
-  margin-top: 80px;
-  margin-left: 60px;
+  margin-top: 60px;
+  margin-left: 3%;
   border-radius: 50%;
 }
 #imag2{
@@ -61,4 +65,25 @@ li a {
   width: 100%;
   height: 300px;
   z-index: 0;
+}
+#sidermenu li a:hover{
+  color: black;
+}
+ul:hover{
+  display: block;
+}
+ul li:hover{
+  background-color: aqua;
+}
+.subtitle{
+  color: white;
+  position: absolute;
+  z-index: 3;
+  text-align: left;
+  left: 16%;
+  top:15%;
+  margin-right: 2px;
+  line-height: 1.5;
+  font-family: arial;
+  font-size: 1.3em;
 }
