@@ -49,41 +49,92 @@ li a {
 	-moz-opacity: 100%;
 	filter: alpha(opacity=100);
 }
-
-#imag{
-
-  position: absolute;
-  width: 10%;
-  height: 20%;
-  z-index: 1;
-  margin-top: 60px;
-  margin-left: 3%;
-  border-radius: 50%;
+li a:hover{
+  color: black;
 }
-#imag2{
+ul:hover{
+  display: block;
+ 
+}
+ul li:hover{
+  background-color: aqua;
+}
+#Template{
+ display: flex;
+ width: 100%;
+}
+#Template .foto1{
   position: absolute;
   width: 100%;
   height: 300px;
   z-index: 0;
 }
-#sidermenu li a:hover{
-  color: black;
+#Template .foto2{
+  position: absolute;
+  display:block;
+  margin-right:1400px;
+  margin-left: 40px;
+  margin-top: 80px;
+  max-width: 1400px;
+  min-width: 100px;
+  z-index: 1;
 }
-ul:hover{
-  display: block;
+.foto2{
+  width: 80px;
+  height: 140px;
+  margin-left: 20px;
+  border-radius: 50%;
 }
-ul li:hover{
+#Tema{
+  position: absolute;
+  z-index: 1;
+  margin-left: 200px;
+  margin-top: 120px;
+  font-family: Arial;
+  color: white;
+}
+.container{
+  width: 100%;
+  margin-top: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+.imgbg{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-position: 50% 70%;
+  background-image: url(Img/monitor.jpg);
+}
+.Anterior, .proximo{
+  position: relative;
+  margin-top: -600px;
+  background-color: white;
+}
+.container{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+.slider input{
+  display: none;
+}
+.Mural{
+  margin-top: 300px;
+  height: 550px;
+  width: 100%;
   background-color: aqua;
 }
-.subtitle{
-  color: white;
-  position: absolute;
-  z-index: 3;
-  text-align: left;
-  left: 16%;
-  top:15%;
-  margin-right: 2px;
-  line-height: 1.5;
-  font-family: arial;
-  font-size: 1.3em;
+.slides-fist{
+  margin-top: 60px;
+}
+.slides{
+  margin-top: 60px;
 }
